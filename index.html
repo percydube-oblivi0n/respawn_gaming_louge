@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Respawn Gaming Lounge: your squad, your setup, your arena." />
+  <title>Respawn Gaming Lounge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <section class="hero" id="home">
+      <header class="site-header">
+        <a class="brand" href="#home" aria-label="Respawn Gaming Lounge home">
+          <span class="brand-mark">R</span><span>RESPAWN<small>GAMING LOUNGE</small></span>
+        </a>
+        <button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">☰</span></button>
+        <nav id="main-nav" aria-label="Main navigation">
+          <a href="#setup">Setup</a><a href="#pricing">Pricing</a><a href="#community">Community</a>
+        </nav>
+        <a class="menu-link" href="#pricing">Book a setup <svg aria-hidden="true" class="icon" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M14 7l5 5-5 5"/></svg></a>
+      </header>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Konstanz / Germany</p>
+          <h1>Your next level <span>starts here.</span></h1>
+          <div class="hero-bottom">
+            <p>Your squad. Your setup. Your arena. Experience gaming like never before.</p>
+            <div class="hero-actions">
+              <a class="button button-accent" href="#setup">Explore our setup <svg aria-hidden="true" class="icon icon-diagonal" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M14 7l5 5-5 5"/></svg></a>
+              <a class="text-link" href="#pricing">View pricing <svg aria-hidden="true" class="icon" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M14 7l5 5-5 5"/></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="https://images.unsplash.com/photo-1616588589676-62b3bd4ff6d2?auto=format&fit=crop&w=1600&q=85" alt="Purple-lit high-performance gaming station" />
+          <div class="image-index">01 — ARENA</div>
+          <div class="hero-stamp"><span>OPEN</span><strong>14—02</strong><small>EVERY DAY</small></div>
+        </div>
+      </div>
+      <div class="hero-ticker" aria-label="Lounge highlights"><span>High-performance PCs</span><i></i><span>Play with friends</span><i></i><span>Challenge your rivals</span><i></i><span>Stay legendary</span></div>
+    </section>
+
+    <section class="features" id="setup">
+      <div class="section-heading"><p class="eyebrow">Built to perform / 02</p><h2>Play without limits.</h2><p>No lag. No weak links. Just elite hardware, electric atmosphere, and room for your whole crew.</p></div>
+      <div class="feature-grid">
+        <article><span class="card-number">01</span><svg aria-hidden="true" class="feature-icon" viewBox="0 0 56 56" fill="none"><circle cx="28" cy="28" r="17"/><circle cx="28" cy="28" r="5"/><path d="M28 4v12M28 40v12M4 28h12M40 28h12"/></svg><h3>Pro setups</h3><p>RTX-powered rigs, 240Hz displays, precision peripherals. Every station is built to win.</p><span class="card-meta">40 battle stations</span></article>
+        <article><span class="card-number">02</span><svg aria-hidden="true" class="feature-icon" viewBox="0 0 56 56" fill="none"><circle cx="21" cy="19" r="8"/><circle cx="39" cy="23" r="6"/><path d="M7 46c1-10 6-15 14-15s13 5 14 15M35 35c8 0 12 4 13 11"/></svg><h3>Squad up</h3><p>Sit together, queue together, win together. Our team zones keep your comms close.</p><span class="card-meta">Private team zones</span></article>
+        <article><span class="card-number">03</span><svg aria-hidden="true" class="feature-icon" viewBox="0 0 56 56" fill="none"><path d="M17 8h22v9c0 11-4 18-11 18s-11-7-11-18V8Z"/><path d="M17 13H9c0 10 3 15 11 15M39 13h8c0 10-3 15-11 15M28 35v9M18 48h20"/></svg><h3>Compete</h3><p>Weekly brackets and big-screen finals. Build your name on our local leaderboard.</p><span class="card-meta">Events every week</span></article>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="pricing-intro"><p class="eyebrow">Choose your session / 03</p><h2>More game. Less talk.</h2><p>All plans include gigabit fiber, premium peripherals, and zero setup time.</p></div>
+      <div class="pricing-grid" id="pricing-grid">
+        <article class="price-card"><div class="price-top"><h3>Casual</h3></div><div class="price"><span>€</span><strong>8</strong><small>/ session</small></div><p>Drop in, lock on, and play your favorites.</p><ul><li><span>+</span> 2 hours arena access</li><li><span>+</span> Standard PC station</li><li><span>+</span> Free soft drink</li></ul><a class="button price-button" href="mailto:play@respawn-lounge.de?subject=Casual%20session">Select Casual <svg aria-hidden="true" class="icon" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M14 7l5 5-5 5"/></svg></a></article>
+        <article class="price-card featured"><div class="price-top"><h3>Pro</h3><span class="recommended">Most played</span></div><div class="price"><span>€</span><strong>24</strong><small>/ session</small></div><p>The full-power session for serious players.</p><ul><li><span>+</span> 6 hours arena access</li><li><span>+</span> Pro 240Hz station</li><li><span>+</span> Priority booking</li><li><span>+</span> 1 snack + 2 drinks</li></ul><a class="button price-button" href="mailto:play@respawn-lounge.de?subject=Pro%20session">Select Pro <svg aria-hidden="true" class="icon" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M14 7l5 5-5 5"/></svg></a></article>
+        <article class="price-card"><div class="price-top"><h3>Squad</h3></div><div class="price"><span>€</span><strong>72</strong><small>/ session</small></div><p>Bring the crew and own the arena together.</p><ul><li><span>+</span> 4 players / 5 hours</li><li><span>+</span> Private squad zone</li><li><span>+</span> Tournament ready</li><li><span>+</span> Snack bundle</li></ul><a class="button price-button" href="mailto:play@respawn-lounge.de?subject=Squad%20session">Select Squad <svg aria-hidden="true" class="icon" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M14 7l5 5-5 5"/></svg></a></article>
+      </div>
+      <p class="pricing-note">Need the whole place? Ask about private arena hire.</p>
+    </section>
+
+    <section class="community" id="community">
+      <div class="community-photo"><img src="https://images.unsplash.com/photo-1696710257827-75e2e5954059?auto=format&fit=crop&w=1400&q=85" alt="Immersive gaming room with high-end PCs"/><div class="photo-label">RESPAWN / KONSTANZ</div></div>
+      <div class="community-copy"><p class="eyebrow">Find your people / 04</p><h2>More than a lobby.</h2><p>Respawn is where local players become teammates, rivals become friends, and one last game turns into an unforgettable night.</p><blockquote>“Come for the setup. Stay for the squad.”</blockquote><a class="button button-light" href="mailto:community@respawn-lounge.de">Join the community <svg aria-hidden="true" class="icon icon-diagonal" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M14 7l5 5-5 5"/></svg></a></div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="footer-main"><div><p class="eyebrow">Ready when you are / 05</p><h2>Press start.</h2></div><a class="footer-cta" href="mailto:play@respawn-lounge.de">Book your station <svg aria-hidden="true" class="icon icon-diagonal" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M14 7l5 5-5 5"/></svg></a></div>
+      <div class="footer-details"><div><strong>Visit</strong><p>Reichenaustraße 21<br/>78467 Konstanz, DE</p></div><div><strong>Contact</strong><a href="mailto:play@respawn-lounge.de">play@respawn-lounge.de</a><a href="tel:+497531991337">+49 7531 99 13 37</a></div><div><strong>Follow</strong><a href="#instagram">Instagram ↗</a><a href="#discord">Discord ↗</a><a href="#twitch">Twitch ↗</a></div><div class="footer-mark"><span class="brand-mark">R</span><p>GG, see you soon.</p></div></div>
+      <div class="footer-legal"><span>© <span id="current-year">2026</span> Respawn Gaming Lounge</span><span>18+ after 22:00</span><a href="#home">Back to top ↑</a></div>
+    </footer>
+  </main>
+</body>
+</html>
